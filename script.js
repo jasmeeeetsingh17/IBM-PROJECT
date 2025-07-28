@@ -1,5 +1,4 @@
-
-// Simple animation counter for impact section
+// Animate counters on scroll
 function animateCounter(id, end, duration) {
     const el = document.getElementById(id);
     let start = 0;
