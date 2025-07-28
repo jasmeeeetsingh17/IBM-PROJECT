@@ -15,7 +15,7 @@ window.addEventListener('scroll', () => {
     const rect = impact.getBoundingClientRect();
     if (rect.top < window.innerHeight && !impact.dataset.animated) {
         impact.dataset.animated = true;
-        animateCounter('treeCount', 5000, 2000);
+        animateCounter('treeCount', 5000, 1000);
         animateCounter('carbonOffset', 1200, 2000);
     }
 });
